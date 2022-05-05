@@ -7,7 +7,7 @@ public class Livro {
     private String autor;
     private double preco;
 
-    public Livro(String titulo, String autor, String preco) throws LivroInvalidoException, AutorInvalidoException {
+    public Livro(String titulo, String autor, double preco) throws LivroInvalidoException, AutorInvalidoException {
         Livro livro = new Livro();
         livro.setTitulo(titulo);
         livro.setAutor(autor);
