@@ -1,3 +1,4 @@
+package exceptions;
 public class AutorInvalidoException extends Exception{
 
     private String mensagem;

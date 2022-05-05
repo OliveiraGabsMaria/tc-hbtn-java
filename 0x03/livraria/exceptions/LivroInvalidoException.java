@@ -1,3 +1,4 @@
+package exceptions;
 public class LivroInvalidoException extends Exception{
 
     private String mensagem;
