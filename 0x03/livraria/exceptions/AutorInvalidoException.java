@@ -7,7 +7,7 @@ public class AutorInvalidoException extends Exception{
         super(mensagem);
         this.mensagem = mensagem;
     }
-
+    @Override
     public String toString() {
         return mensagem;
     }

@@ -5,7 +5,7 @@ public class Livro {
 
     private String titulo;
     private String autor;
-    private String preco;
+    private double preco;
 
     public Livro(String titulo, String autor, String preco) throws LivroInvalidoException, AutorInvalidoException {
         Livro livro = new Livro();
@@ -25,7 +25,7 @@ public class Livro {
 
     public void setTitulo(String titulo) throws LivroInvalidoException{
         if(titulo.length() < 3) {
-            throw new LivroINvalidoException("Titulo de livro invalido");
+            throw new LivroInvalidoException("Titulo de livro invalido");
         }
         this.titulo = titulo;
     }
@@ -41,11 +41,11 @@ public class Livro {
         this.autor = autor;
     }
 
-    public String getPreco() {
+    public double getPreco() {
         return preco;
     }
 
-    public void setPreco(String preco) throws LivroInvalidoException{
+    public void setPreco(double preco) throws LivroInvalidoException{
         if(preco < 1){
             throw new LivroInvalidoException("Preco de livro invalido");;
         }

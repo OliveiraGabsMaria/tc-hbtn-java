@@ -8,6 +8,7 @@ public class LivroInvalidoException extends Exception{
         this.mensagem = mensagem;
     }
 
+    @Override
     public String toString() {
         return mensagem;
     }
