@@ -21,7 +21,7 @@ public class Empregado {
 
         return this.valorBonus;
     }
-    oublic double calcularSalarioTotal(Departamento departamento){
+    public double calcularSalarioTotal(Departamento departamento){
         return this.salarioFixo + calcularBonus(departamento);
     }
 }
