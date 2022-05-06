@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7cd5277-502f-4752-9d46-e630ef881010" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f558b5ec-dcd6-4b67-95f4-e5602200e86e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../metodos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../metodos/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../status/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../status/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../status/.idea/modules.xml" beforeDir="false" />
@@ -34,27 +34,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28nmC4dAEbv3kqJaFBzUkGQW296" />
+  <component name="ProjectId" id="28nz0AaBXQQ1pYze5GHL7zpi7Db" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gabrielly/Documentos/tc-hbtn-java/0x04/status&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/gabrielly/Documentos/tc-hbtn-java/0x04/consistencia"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c7cd5277-502f-4752-9d46-e630ef881010" name="Changes" comment="" />
-      <created>1651860592738</created>
+      <changelist id="f558b5ec-dcd6-4b67-95f4-e5602200e86e" name="Changes" comment="" />
+      <created>1651866911219</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651860592738</updated>
+      <updated>1651866911219</updated>
     </task>
     <servers />
   </component>
