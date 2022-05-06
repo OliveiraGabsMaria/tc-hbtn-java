@@ -2,7 +2,7 @@ import java.util.Locale;
 
 public class Program {
     public static void main(String[] args) {
-        Locale.setDeault(new Locale("pt", "BR"));
+        Locale.setDefault(new Locale("pt", "BR"));
         PersonagemGame personagem1 = new PersonagemGame();
         PersonagemGame personagem2 = new PersonagemGame();
 
