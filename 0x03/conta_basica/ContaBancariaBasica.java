@@ -23,7 +23,7 @@ public class ContaBancariaBasica {
     }
 
     public void depositar(double valor) throws OperacaoInvalidaException {
-        if (valor > 0) ;{
+        if (valor > 0){
             this.saldo = this.saldo + valor;
         }
         else{
