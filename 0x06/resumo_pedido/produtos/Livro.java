@@ -17,4 +17,16 @@ public class Livro extends Produto{
     public double obterPrecoLiquido(){
         return this.precoBruto + this.precoBruto * 0.15;
     }
+
+    public int getPaginas() {
+        return paginas;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getEdicao() {
+        return edicao;
+    }
 }

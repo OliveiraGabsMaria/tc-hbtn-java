@@ -30,10 +30,10 @@ public class Pedido {
         for(ItemPedido item: itens){
             Produto produto = item.getProduto;
 
-            if (p instanceof Livro) {
+            if (produto instanceof Livro) {
                 System.out.printf("Tipo: Livro ");
             }
-            else if (p instanceof Dvd) {
+            else if (produto instanceof Dvd) {
                 System.out.printf("Tipo: Dvd ");
             }
             System.out.printf("Titulo: " + produto.getTItulo() + " ");

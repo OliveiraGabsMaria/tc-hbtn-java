@@ -16,4 +16,16 @@ public class Dvd extends Produto{
     public double obterPrecoLiquido(){
         return this.precoBruto + this.precoBruto * 0.20;
     }
+
+    public String getDiretor() {
+        return diretor;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public int getDuracao() {
+        return duracao;
+    }
 }

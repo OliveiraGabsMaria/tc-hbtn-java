@@ -14,4 +14,20 @@ public abstract class Produto {
     }
 
     public abstract double obterPrecoLiquido();
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public double getPrecoBruto() {
+        return precoBruto;
+    }
 }
