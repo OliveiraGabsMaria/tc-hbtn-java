@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c4390d0-e59a-45c5-8239-5b82b09ca49c" name="Changes" comment="" />
+    <list default="true" id="431c182c-8283-4f33-b8aa-14d7ea9480be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../retangulo_completo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../retangulo_completo/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,27 +23,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28vN0d07xtBNdBo7mW5qdyWDCVS" />
+  <component name="ProjectId" id="28vSGUkqa0QCC67MVEnilAbe8YD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gabrielly/Documentos/tc-hbtn-java/0x05/quadrado&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/gabrielly/Documentos/tc-hbtn-java/0x05/quadrado"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c4390d0-e59a-45c5-8239-5b82b09ca49c" name="Changes" comment="" />
-      <created>1652092877472</created>
+      <changelist id="431c182c-8283-4f33-b8aa-14d7ea9480be" name="Changes" comment="" />
+      <created>1652095470967</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652092877472</updated>
+      <updated>1652095470967</updated>
     </task>
     <servers />
   </component>

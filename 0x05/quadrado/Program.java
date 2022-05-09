@@ -1,3 +1,6 @@
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Field;
+
 public class Program {
     public static void main(String[] args) {
         Quadrado quadrado = new Quadrado();

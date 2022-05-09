@@ -3,7 +3,7 @@ public class Retangulo extends FormaGeometrica{
     protected double altura;
 
     public double getLargura() {
-        return largura;
+        return this.largura;
     }
 
     public void setLargura(double largura) throws IllegalArgumentException{
@@ -16,7 +16,7 @@ public class Retangulo extends FormaGeometrica{
     }
 
     public double getAltura() {
-        return altura;
+        return this.altura;
     }
 
     public void setAltura(double altura) throws IllegalArgumentException{
@@ -32,7 +32,6 @@ public class Retangulo extends FormaGeometrica{
     public double area(){
         return altura*largura;
     }
-
     public String toString() {
         return "[Retangulo] " + String.format("%.2f", largura) + " / " + String.format("%.2f", altura);
     }
