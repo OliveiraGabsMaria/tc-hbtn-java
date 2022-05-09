@@ -1,4 +1,6 @@
-import produtos.*;
+import produtos.Produto;
+import produtos.Livro;
+import produtos.Dvd;
 
 public class Pedido {
     private double percentualDesconto;
@@ -27,6 +29,7 @@ public class Pedido {
 
         for(ItemPedido item: itens){
             Produto p = item.getProduto;
+
             if (p instanceof Livro) {
                 System.out.printf("Tipo: Livro ");
             }
@@ -36,7 +39,7 @@ public class Pedido {
             System.out.prinf("Titulo: " + p.getTItulo() + " ");
             System.out.prinf("Preco: " + String.format("%.2f" , p.obterPrecoLiquido()) + " ");
             System.out.prinf("Quant: " + item.getQuantidade() + " ");
-            System.out.prinf("Total: " + String.format("%.2f", p.obterPrecoLiquido() ( item.getQuantidade()) + "/n");
+            System.out.prinf("Total: " + String.format("%.2f", p.obterPrecoLiquido() * item.getQuantidade()) + "/n");
 
             total += p.obterPrecoLiquido() * item.getQuantidade();
         }
