@@ -39,7 +39,7 @@ public class Pedido {
             System.out.printf("Titulo: " + p.getTitulo()+ " ");
             System.out.printf("Preco: " + String.format("%.2f" , p.obterPrecoLiquido()) + " ");
             System.out.printf("Quant: " + item.getQuantidade() + " ");
-            System.out.printf("Total: " + String.format("%.2f", p.obterPrecoLiquido() * item.getQuantidade()) + "/n");
+            System.out.printf("Total: " + String.format("%.2f", p.obterPrecoLiquido() * item.getQuantidade()) + "\n");
 
             total += p.obterPrecoLiquido() * item.getQuantidade();
         }
