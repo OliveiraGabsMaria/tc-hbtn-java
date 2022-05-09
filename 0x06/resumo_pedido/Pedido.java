@@ -28,7 +28,7 @@ public class Pedido {
         System.out.println("------- RESUMO PEDIDO -------");
 
         for(ItemPedido item: itens){
-            Produto p = item.getProduto;
+            Produto produto = item.getProduto;
 
             if (p instanceof Livro) {
                 System.out.printf("Tipo: Livro ");
@@ -36,15 +36,15 @@ public class Pedido {
             else if (p instanceof Dvd) {
                 System.out.printf("Tipo: Dvd ");
             }
-            System.out.printf("Titulo: " + p.getTItulo() + " ");
-            System.out.printf("Preco: " + String.format("%.2f" , p.obterPrecoLiquido()) + " ");
+            System.out.printf("Titulo: " + produto.getTItulo() + " ");
+            System.out.printf("Preco: " + String.format("%.2f" , produto.obterPrecoLiquido()) + " ");
             System.out.printf("Quant: " + item.getQuantidade() + " ");
-            System.out.printf("Total: " + String.format("%.2f", p.obterPrecoLiquido() * item.getQuantidade()) + "/n");
+            System.out.printf("Total: " + String.format("%.2f", produto.obterPrecoLiquido() * item.getQuantidade()) + "/n");
 
-            total += p.obterPrecoLiquido() * item.getQuantidade();
+            total += produto.obterPrecoLiquido() * item.getQuantidade();
         }
 
-        desconto = this.percentualDesconto * toatal/100;
+        desconto = this.percentualDesconto * total/100;
 
 
         System.out.println("----------------------------");
