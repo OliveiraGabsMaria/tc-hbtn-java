@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="431c182c-8283-4f33-b8aa-14d7ea9480be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="75881a97-385c-409e-b9b9-9a5e24b9c505" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../quadrado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quadrado/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28vSGUkqa0QCC67MVEnilAbe8YD" />
+  <component name="ProjectId" id="28vdCHAGT60mV8RMQHc3o8RIJPE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,11 +38,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="431c182c-8283-4f33-b8aa-14d7ea9480be" name="Changes" comment="" />
-      <created>1652095470967</created>
+      <changelist id="75881a97-385c-409e-b9b9-9a5e24b9c505" name="Changes" comment="" />
+      <created>1652100863053</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652095470967</updated>
+      <updated>1652100863053</updated>
     </task>
     <servers />
   </component>
