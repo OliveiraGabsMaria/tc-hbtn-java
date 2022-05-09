@@ -31,14 +31,14 @@ public class Pedido {
             Produto p = item.getProduto();
 
             if (p instanceof Livro) {
-                System.out.printf("Tipo: Livro ");
+                System.out.printf("Tipo: Livro  ");
             } else if (p instanceof Dvd) {
-                System.out.printf("Tipo: Dvd ");
+                System.out.printf("Tipo: Dvd  ");
             }
 
-            System.out.printf("Titulo: " + p.getTitulo()+ " ");
-            System.out.printf("Preco: " + String.format("%.2f" , p.obterPrecoLiquido()) + " ");
-            System.out.printf("Quant: " + item.getQuantidade() + " ");
+            System.out.printf("Titulo: " + p.getTitulo()+ "  ");
+            System.out.printf("Preco: " + String.format("%.2f" , p.obterPrecoLiquido()) + "  ");
+            System.out.printf("Quant: " + item.getQuantidade() + "  ");
             System.out.printf("Total: " + String.format("%.2f", p.obterPrecoLiquido() * item.getQuantidade()) + "\n");
 
             total += p.obterPrecoLiquido() * item.getQuantidade();
