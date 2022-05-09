@@ -34,12 +34,12 @@ public class Pedido {
                 System.out.printf("Tipo: Livro ");
             }
             else if (p instanceof Dvd) {
-                System.out.prinf("Tipo: Dvd ");
+                System.out.printf("Tipo: Dvd ");
             }
-            System.out.prinf("Titulo: " + p.getTItulo() + " ");
-            System.out.prinf("Preco: " + String.format("%.2f" , p.obterPrecoLiquido()) + " ");
-            System.out.prinf("Quant: " + item.getQuantidade() + " ");
-            System.out.prinf("Total: " + String.format("%.2f", p.obterPrecoLiquido() * item.getQuantidade()) + "/n");
+            System.out.printf("Titulo: " + p.getTItulo() + " ");
+            System.out.printf("Preco: " + String.format("%.2f" , p.obterPrecoLiquido()) + " ");
+            System.out.printf("Quant: " + item.getQuantidade() + " ");
+            System.out.printf("Total: " + String.format("%.2f", p.obterPrecoLiquido() * item.getQuantidade()) + "/n");
 
             total += p.obterPrecoLiquido() * item.getQuantidade();
         }
@@ -48,7 +48,7 @@ public class Pedido {
 
 
         System.out.println("----------------------------");
-        System.out.prinf("DESCONTO: " + String.format("%.2f", desconto));
+        System.out.printf("DESCONTO: " + String.format("%.2f", desconto));
         System.out.printf("\nTOTAL PRODUTOS: " + String.format("%.2f", total));
         System.out.println("\n----------------------------");
         System.out.printf("TOTAL PEDIDO: " + String.format("%.2f", total - desconto));
