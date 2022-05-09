@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25210286-80af-4d86-9e71-643ccebb033c" name="Changes" comment="">
+    <list default="true" id="b7acb5fe-65b8-4276-8e4d-efc8ae4c185f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../pedido_livraria/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pedido_livraria/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produtos/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/produtos/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produtos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/produtos/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,31 +28,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="28vhHVSlSh77yIzpbRLsfR2CsKJ" />
+  <component name="ProjectId" id="28w2OGVNzmBENWjLC7GNaSbUEmm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gabrielly/Documentos/tc-hbtn-java/0x06/resumo_pedido&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/gabrielly/Documentos/tc-hbtn-java/0x06/resumo_pedido"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25210286-80af-4d86-9e71-643ccebb033c" name="Changes" comment="" />
-      <created>1652102878369</created>
+      <changelist id="b7acb5fe-65b8-4276-8e4d-efc8ae4c185f" name="Changes" comment="" />
+      <created>1652113293346</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652102878369</updated>
+      <updated>1652113293346</updated>
     </task>
     <servers />
   </component>

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25210286-80af-4d86-9e71-643ccebb033c" name="Changes" comment="" />
+    <list default="true" id="25210286-80af-4d86-9e71-643ccebb033c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/ItemPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/produtos/Dvd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/produtos/Livro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resumo_pedido/produtos/Produto.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,19 +30,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="28vhHVSlSh77yIzpbRLsfR2CsKJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/gabrielly/Documentos/tc-hbtn-java/0x06/resumo_pedido"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gabrielly/Documentos/tc-hbtn-java/0x06/resumo_pedido&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="pedido_livraria" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="pedido_livraria" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
