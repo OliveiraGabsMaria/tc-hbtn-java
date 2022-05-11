@@ -1,4 +1,4 @@
-package provadores;
+package provedores;
 
 public enum TipoProvedorFrete {
 

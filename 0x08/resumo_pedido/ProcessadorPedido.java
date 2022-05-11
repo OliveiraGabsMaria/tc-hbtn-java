@@ -1,5 +1,5 @@
-import provadores.Frete;
-import provadores.ProvedorFrete;
+import provedores.Frete;
+import provedores.ProvedorFrete;
 
 public class ProcessadorPedido {
 

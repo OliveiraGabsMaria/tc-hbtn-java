@@ -1,4 +1,4 @@
-import provadores.Frete;
+import provedores.Frete;
 
 public class Pedido {
 
