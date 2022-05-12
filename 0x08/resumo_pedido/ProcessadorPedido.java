@@ -1,15 +1,14 @@
-import provedores.Frete;
-import provedores.ProvedorFrete;
+import provedores.*;
 
 public class ProcessadorPedido {
 
     public ProvedorFrete provedorFrete;
 
-    public ProcessadorPedido(ProvedorFrete provedorFrete){
+    public ProcessadorPedido(ProvedorFrete provedorFrete) {
         this.provedorFrete = provedorFrete;
     }
 
     public void processar(Pedido pedido){
-        pedido.setFrete(new Frete(provedorFrete.calcularFrete(pedido.getPeso(), pedido.getTotal()), provedorFrete.obterTipoProvedorFrete()));
+        pedido.frete = this.provedorFrete.calcularFrete(pedido.peso, pedido.total);
     }
 }
