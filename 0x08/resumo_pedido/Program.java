@@ -3,6 +3,7 @@ import java.util.Locale;
 
 public class Program {
     public static void main(String[] args) {
+        Locale.setDefault(new Locale("pt", "BR"));
 
         Pedido pedido1 = new Pedido(1, 1500, 234.90);
         Pedido pedido2 = new Pedido(2, 600, 124.00);
@@ -12,49 +13,49 @@ public class Program {
         ProcessadorPedido processadorPedidoSedex = new ProcessadorPedido(new Sedex());
         processadorPedidoSedex.processar(pedido1);
 
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido1.getFrete().getTipoProvedorFrete(), pedido1.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido1.getFrete().getTipoProvedorFrete(), pedido1.getFrete().getValor());
 
         ProcessadorPedido processadorPedidoJadLog = new ProcessadorPedido(new JadLog());
         processadorPedidoJadLog.processar(pedido1);
 
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido1.getFrete().getTipoProvedorFrete(), pedido1.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido1.getFrete().getTipoProvedorFrete(), pedido1.getFrete().getValor());
 
         ProcessadorPedido processadorPedidoLoggi = new ProcessadorPedido(new Loggi());
         processadorPedidoLoggi.processar(pedido1);
 
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido1.getFrete().getTipoProvedorFrete(), pedido1.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido1.getFrete().getTipoProvedorFrete(), pedido1.getFrete().getValor());
 
         System.out.println("-----");
 
         processadorPedidoSedex.processar(pedido2);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido2.getFrete().getTipoProvedorFrete(), pedido2.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido2.getFrete().getTipoProvedorFrete(), pedido2.getFrete().getValor());
 
         processadorPedidoJadLog.processar(pedido2);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido2.getFrete().getTipoProvedorFrete(), pedido2.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido2.getFrete().getTipoProvedorFrete(), pedido2.getFrete().getValor());
 
         processadorPedidoLoggi.processar(pedido2);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido2.getFrete().getTipoProvedorFrete(), pedido2.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido2.getFrete().getTipoProvedorFrete(), pedido2.getFrete().getValor());
 
         System.out.println("-----");
 
         processadorPedidoSedex.processar(pedido3);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido3.getFrete().getTipoProvedorFrete(), pedido3.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido3.getFrete().getTipoProvedorFrete(), pedido3.getFrete().getValor());
 
         processadorPedidoJadLog.processar(pedido3);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido3.getFrete().getTipoProvedorFrete(), pedido3.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido3.getFrete().getTipoProvedorFrete(), pedido3.getFrete().getValor());
 
         processadorPedidoLoggi.processar(pedido3);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido3.getFrete().getTipoProvedorFrete(), pedido3.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido3.getFrete().getTipoProvedorFrete(), pedido3.getFrete().getValor());
 
         System.out.println("-----");
 
         processadorPedidoSedex.processar(pedido4);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido4.getFrete().getTipoProvedorFrete(), pedido4.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido4.getFrete().getTipoProvedorFrete(), pedido4.getFrete().getValor());
 
         processadorPedidoJadLog.processar(pedido4);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido4.getFrete().getTipoProvedorFrete(), pedido4.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido4.getFrete().getTipoProvedorFrete(), pedido4.getFrete().getValor());
 
         processadorPedidoLoggi.processar(pedido4);
-        System.out.printf(Locale.GERMANY, "%s - %.2f\n", pedido4.getFrete().getTipoProvedorFrete(), pedido4.getFrete().getValor());
+        System.out.printf("%s - %.2f\n", pedido4.getFrete().getTipoProvedorFrete(), pedido4.getFrete().getValor());
     }
 }
