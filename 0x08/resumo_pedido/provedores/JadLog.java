@@ -14,7 +14,7 @@ public class JadLog implements ProvedorFrete{
         double valorFrete = 0;
 
         if(peso > 2000){
-            valorFrete = valor * 0.7;
+            valorFrete = valor * 0.07;
         }
         else {
             valorFrete = valor * 0045;
