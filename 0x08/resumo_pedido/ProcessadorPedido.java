@@ -9,6 +9,6 @@ public class ProcessadorPedido {
     }
 
     public void processar(Pedido pedido){
-        pedido.frete = this.provedorFrete.calcularFrete(pedido.peso, pedido.total);
+        pedido.setFrete = (this.provedorFrete.calcularFrete(pedido.getPeso(), pedido.getTotal());
     }
 }

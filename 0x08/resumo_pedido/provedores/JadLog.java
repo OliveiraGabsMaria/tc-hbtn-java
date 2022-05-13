@@ -1,22 +1,22 @@
 package provedores;
 
-public class JadLog implements ProvedorFrete{
+public class JadLog implements ProvedorFrete {
 
-    public JadLog(){
+    public JadLog() {
     }
+
     @Override
     public TipoProvedorFrete obterTipoProvedorFrete() {
         return TipoProvedorFrete.JADLOG;
     }
-}
+
     @Override
     public Frete calcularFrete(double peso, double valor) {
         double valorFrete = 0;
 
-        if(peso > 2000){
+        if (peso > 2000) {
             valorFrete = valor * 0.07;
-        }
-        else {
+        } else {
             valorFrete = valor * 0045;
         }
 
@@ -24,5 +24,5 @@ public class JadLog implements ProvedorFrete{
 
         return frete;
     }
-
+}
 
