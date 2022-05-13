@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75881a97-385c-409e-b9b9-9a5e24b9c505" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../quadrado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quadrado/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x08/resumo_pedido/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x08/resumo_pedido/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x08/resumo_pedido/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/JadLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/JadLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/Loggi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/Loggi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/ProvedorFrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/ProvedorFrete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/Sedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/Sedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/TipoProvedorFrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../0x08/resumo_pedido/provedores/TipoProvedorFrete.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/gabrielly/Documentos/tc-hbtn-java/0x06/pedido_livraria"
+    "last_opened_file_path": "/home/gabrielly/Documentos/tc-hbtn-java/0x08/resumo_pedido"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
