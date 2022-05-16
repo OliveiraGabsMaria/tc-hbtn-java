@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="909adda0-9c91-44df-8156-cb337d7009f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProcessadorPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProcessadorPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provedores/Frete.java" beforeDir="false" afterPath="$PROJECT_DIR$/provedores/Frete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provedores/JadLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/provedores/JadLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provedores/Loggi.java" beforeDir="false" afterPath="$PROJECT_DIR$/provedores/Loggi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provedores/Override.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/provedores/ProvedorFrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/provedores/ProvedorFrete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provedores/Sedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/provedores/Sedex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provedores/TipoProvedorFrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/provedores/TipoProvedorFrete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resumo_pedido.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

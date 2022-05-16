@@ -12,7 +12,7 @@ public class ProcessadorPedido {
     public void processar(Pedido pedido){
         pedido.setFrete(new Frete(
                 provedorFrete.calcularFrete(pedido.getPeso(), pedido.getTotal()),
-                provedorFrete.obterTipoProvedorPrete()
+                provedorFrete.obterTipoProvedorFrete()
         ));
     }
 }

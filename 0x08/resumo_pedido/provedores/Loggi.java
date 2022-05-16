@@ -5,7 +5,7 @@ public class Loggi implements ProvedorFrete {
     }
 
     @Override
-    public Frete calcularFrete(double peso, double valor) {
+    public double calcularFrete(double peso, double valor) {
         if (peso > 5000) {
            return valor*0.12;
         } else {
