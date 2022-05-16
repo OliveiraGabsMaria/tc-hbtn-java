@@ -5,7 +5,7 @@ public class Frete {
      double valor;
      TipoProvedorFrete tipoProvedorFrete;
 
-    public Frete(double valor, TipoProvedorFrete tipoProvedorFrete) {
+    public Frete(provedores.TipoProvedorFrete valor, double tipoProvedorFrete) {
         this.valor = valor;
         this.tipoProvedorFrete = tipoProvedorFrete;
     }
