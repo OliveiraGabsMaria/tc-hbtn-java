@@ -18,7 +18,7 @@ public class Endereco {
         this.pais = pais;
     }
 
-    public String getLougradouro() {
+    public String getLogradouro() {
         return logradouro;
     }
 
