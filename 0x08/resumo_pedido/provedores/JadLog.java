@@ -8,9 +8,9 @@ public class JadLog implements ProvedorFrete {
     @Override
     public Frete calcularFrete(double peso, double valor) {
         if (peso > 2000) {
-            return valor * 0.07;
+            return valor*0.07;
         } else {
-           return valor * 0.045;
+           return valor*0.045;
         }
     }
 

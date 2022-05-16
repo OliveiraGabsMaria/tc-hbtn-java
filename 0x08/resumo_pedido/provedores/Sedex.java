@@ -7,9 +7,9 @@ public class Sedex implements ProvedorFrete {
     @Override
     public Frete calcularFrete(double peso, double valor) {
         if (peso > 1000) {
-            return valor * 0.1;
+            return valor*0.1;
         } else {
-            return valor * 0.05;
+            return valor*0.05;
         }
     }
     @Override
