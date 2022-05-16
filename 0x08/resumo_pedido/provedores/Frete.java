@@ -2,12 +2,19 @@ package provedores;
 
 public class Frete {
 
-     double valor;
-     TipoProvedorFrete tipoProvedorFrete;
+     private double valor;
+     private TipoProvedorFrete tipoProvedorFrete;
 
-    public Frete(provedores.TipoProvedorFrete valor, double tipoProvedorFrete) {
+    public Frete(double valor, double tipoProvedorFrete) {
         this.valor = valor;
         this.tipoProvedorFrete = tipoProvedorFrete;
+    }
+    public double getValor() {
+        return valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
     }
     public TipoProvedorFrete getTipoProvedorFrete() {
         return tipoProvedorFrete;
@@ -15,14 +22,6 @@ public class Frete {
 
     public void setTipoProvedorFrete(TipoProvedorFrete tipoProvedorFrete) {
         this.tipoProvedorFrete = tipoProvedorFrete;
-    }
-
-    public double getValor() {
-        return valor;
-    }
-
-    public void setValor(double valor) {
-        this.valor = valor;
     }
 }
 
