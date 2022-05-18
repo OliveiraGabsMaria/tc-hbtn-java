@@ -34,5 +34,6 @@ public class InteiroPositivo {
                 return true;
             }
         }
+        return this.ehPrimo();
     }
 }
