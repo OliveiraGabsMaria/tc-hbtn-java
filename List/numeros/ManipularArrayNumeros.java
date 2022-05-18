@@ -12,6 +12,15 @@ public class ManipularArrayNumeros {
         }
         return -1;
     }
+    public static void removerNumero (List<Integer> numeros, int i){
+        if (buscarPosicaoNumero(numeros, i) == -1){
+            throw new IllegalArgumentException("Numero nao encontrado na lista");
+        }
+        else {
+            numeros.remove(buscarPosicaoNumero(numeros, i));
+        }
+    }
+
 
     public static void adicionarNumero (List<Integer> numeros, int i){
         if (buscarPosicaoNumero(numeros, i) != -1){
@@ -21,14 +30,7 @@ public class ManipularArrayNumeros {
         }
     }
 
-    public static void removerNumero (List<Integer> numeros, int i){
-        if (buscarPosicaoNumero(numeros, i) == 1){
-            throw new IllegalArgumentException("Numero nao encontrado na lista");
-        }
-        else {
-            numeros.remove(buscarPosicaoNumero(numeros, i));
-        }
-    }
+
 
     public static void substituirNumero (List<Integer> numeros, int numeroSubstituir, int numeroSubstituto){
         if (buscarPosicaoNumero(numeros, numeroSubstituir) == -1){
