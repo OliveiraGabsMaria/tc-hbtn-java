@@ -3,7 +3,7 @@ import java.util.List;
 import java.lang.reflect.Array;
 
 public class Pedido {
-    private ArrayList<PedidoCookieo> cookies;
+    private ArrayList<PedidoCookie> cookies;
 
     public Pedido () {
         this.cookies = new ArrayList<>();
@@ -26,7 +26,7 @@ public class Pedido {
         for (int i = 0; i < this.cookies.siz(); i++){
             if (this.cookies.get(i).getSabor().equals(sabor)){
                 total += this.cookies.get(i).getQuantidadeCaixas();
-                this.cookies,remove(i);
+                this.cookies.remove(i);
             }
         }
         return total;
