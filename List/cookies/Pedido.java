@@ -9,7 +9,7 @@ public class Pedido {
         this.cookies = new ArrayList<>();
     }
 
-    public void adicionarPedidoCookie( PedidoCookie pedidoCookie){
+    public void adicionarPedidoCookie(PedidoCookie cookies){
         this.cookies.add(cookies);
     }
 
@@ -23,7 +23,7 @@ public class Pedido {
 
     public int removerSabor(String sabor){
         int total = 0;
-        for (int i = 0; i < this.cookies.siz(); i++){
+        for (int i = 0; i < this.cookies.size(); i++){
             if (this.cookies.get(i).getSabor().equals(sabor)){
                 total += this.cookies.get(i).getQuantidadeCaixas();
                 this.cookies.remove(i);
