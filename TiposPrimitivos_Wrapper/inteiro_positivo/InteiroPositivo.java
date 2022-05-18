@@ -24,16 +24,14 @@ public class InteiroPositivo {
     }
 
     public boolean ehPrimo(){
-        for (int i = 2; i < this.valor; i++){
-            if (this.valor % i  == 0){
-                return false;
-            } else if (this.valor <= 1) {
-                return false;
-            }
-            else {
-                return true;
-            }
+        if (valor <= 1){
+            return false;
+        } else if (valor == 2 || valor == 3) {
+            return true;
+        } else if (valor % 2 == 0 || valor % 3 == 0) {
+            return false;
+        } else {
+            return true;
         }
-        return this.ehPrimo();
     }
 }
