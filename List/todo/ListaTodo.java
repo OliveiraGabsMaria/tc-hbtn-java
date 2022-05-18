@@ -19,7 +19,7 @@ public class ListaTodo {
         tarefas.add(tarefa);
     }
 
-    public boolean marcarTarefaFeita(int indentificador) {
+    public boolean marcarTarefaFeita(int identificador) {
         for (Tarefa tarefa : tarefas) {
             if (tarefa.getIdentificador() == identificador){
                 tarefa.setEstahFeita(true);
