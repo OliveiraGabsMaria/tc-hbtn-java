@@ -6,7 +6,7 @@ public class Agencia {
 
     public Agencia(String nome) {
         this.nome = nome;
-        this.clientes = new ArrayLIst<>();
+        this.clientes = new ArrayList<>();
     }
 
     public String getNome() {
@@ -24,7 +24,7 @@ public class Agencia {
     public Cliente buscarCliente(String nomeCliente) {
         for (int i = 0; i < clientes.size(); i++){
             if (clientes.get(i).getNome().equals(nomeCliente)){
-                return cliente.get(i);
+                return clientes.get(i);
             }
         }
         return null;
