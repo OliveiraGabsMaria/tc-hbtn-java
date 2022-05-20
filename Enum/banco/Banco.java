@@ -52,7 +52,7 @@ public class Banco {
         return true;
     }
 
-    public boolean listarClientes(String nomeAgencia, boolean imprimiTransacoes){
+    public boolean listarClientes(String nomeAgencia, boolean imprimiTransacoes) {
         Agencia agLocalizada = buscarAgencia(nomeAgencia);
 
         if (agLocalizada == null){
@@ -64,7 +64,7 @@ public class Banco {
 
             if (imprimiTransacoes) {
                 for (int i2 = 0; i2 < encontrado.getTransacoes().size(); i2++){
-                    System.out.println(" [" + (i2 + 1) + "] valor " + encontrado.getTransacoes().get(i2));
+                    System.out.println("  [" + (i2 + 1) + "] valor " + encontrado.getTransacoes().get(i2));
                 }
             }
         }
