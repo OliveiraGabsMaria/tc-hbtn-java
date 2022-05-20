@@ -1,13 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Celular {
 
     private ArrayList<Contato> contatos = new ArrayList<Contato>();
-    private ArrayList<Contato> contatosLista = new ArrayList<Contato>();
+    private ArrayList<Contato> contatosListados = new ArrayList<Contato>();
 
+    public Celular(){
 
-    public Celular(){}
+    }
 
     public Celular(ArrayList<Contato> contatos){
         this.contatos = contatos;
@@ -23,8 +25,8 @@ public class Celular {
     }
 
     public void removerContato(Contato contato) {
-        for (int i = 0; i < contatos.size(); i++){
-            if (contato.get(i).getNome().equals(contato.getNome())){
+        for (int i = 0; i < contatos.size(); i++) {
+            if (contatos.get(i).getNome().equals(contato.getNome())){
                 contatos.remove(i);
             }
             else {
@@ -56,14 +58,14 @@ public class Celular {
         }
     }
 
-    public List<Contato> obterPosicaoContato (String nomeContatosLista){
+    public List<Contato> obterPosicaoContato (String nomeContatosListados){
         for (Contato contato : contatos){
-            if (contato.getNome().equals(nomeContatosLista)){
-                contatosLista.add(contato);
+            if (contato.getNome().equals(nomeContatosListados)){
+                contatosListados.add(contato);
             }
 
         }
-        return contatosLista;
+        return contatosListados;
     }
 
 
