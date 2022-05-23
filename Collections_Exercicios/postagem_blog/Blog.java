@@ -48,7 +48,7 @@ public class Blog {
 
         this.posts.forEach(post -> {
             if (post.getAutor().toString().equals(autor.toString()))
-                post.add(post);
+                posts.add(post);
         });
         return posts;
     }
@@ -57,7 +57,7 @@ public class Blog {
         Set<Post> posts = new TreeSet<Post>();
         this.posts.forEach(post -> {
             if (post.getCategoria().equals(categoria))
-                post.add(post);
+                posts.add(post);
         });
 
         return posts;
