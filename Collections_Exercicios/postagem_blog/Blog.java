@@ -27,6 +27,7 @@ public class Blog {
                 }
             }
             mapaCategorias.put(posts.get(i).getCategoria(), total);
+            total = 0;
         }
         return mapaCategorias;
     }
