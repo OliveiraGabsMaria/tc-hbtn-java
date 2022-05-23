@@ -3,7 +3,7 @@ import java.util.*;
 public class NumerosDuplicados {
     public static TreeSet<Integer> buscar(int[] numeros){
         TreeSet<Integer> setMap = new TreeSet<>();
-        Set<Integer> set = HashSet<>();
+        Set<Integer> set = new HashSet<>();
         for (int numero : numeros) {
             if (set.contains(numero)){
                 setMap.add(numero);
