@@ -68,11 +68,10 @@ public class Post implements  Comparable<Post>{
     }
 
     public int hashCode() {
-        int result = super.hashCode();
-        result = 31 * result + getAutor().hashCode();
-        result = 31 * result + getTitulo().hashCode();
-        result = 31 * result + corpo.hashCode();
-        result = 31 * result + getCategoria().hashCode();
+        int result = autor != null ? autor.hashCode() : 0;
+        result = 31 * result + (titulo != null ? titulo.hashCode() : 0);
+        result = 31 * result + (corpo != null ? corpo.hashCode() : 0);
+        result = 31 * result + (categoria != null ? categoria.hashCode() : 0);
 
         return result;
     }

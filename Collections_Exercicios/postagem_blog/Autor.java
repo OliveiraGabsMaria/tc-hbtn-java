@@ -56,9 +56,9 @@ public class Autor implements Comparable<Autor>{
     }
 
     public int hashCode() {
-        int result = super.hashCode();
-        result = 31 * result + getNome().hashCode();
-        result = 31 * result + sobrenome.hashCode();
+        int result = nome != null ? nome.hashCode() : 0;
+        result = 31 * result + (sobrenome != null ? sobrenome.hashCode() : 0);
+        
         return result;
     }
 }

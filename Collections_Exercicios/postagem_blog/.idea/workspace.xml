@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c901efc1-abbd-4ce3-9448-d383c04afc3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/Post.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
