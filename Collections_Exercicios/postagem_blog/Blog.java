@@ -82,9 +82,28 @@ public class Blog {
             }
 
             postagem.add(post);
-            todosPosts.put(post.getAutor(), postagem);
+            todosPosts.put(post.getCategoria(), postagem);
         }
         return todosPosts;
+    }
+
+    public Map<Autor, Set<Post>> obterTodosPostsPorAutor() {
+        Map<Autor, Set<Post>> todosPots = new TreeMap<>():
+
+        for (Post post : posts){
+            Set<Post> postagem;
+            if (todosPots.containsKey(post.getAutor())) {
+                postagem = todosPots.get(post.getAutor());
+            }
+            else {
+                postagem = new TreeSet<>();
+            }
+
+            postagem.add(post);
+            todosPots.put(post.getAutor(), postagem);
+        }
+
+        return todosPots;
     }
 
 }
