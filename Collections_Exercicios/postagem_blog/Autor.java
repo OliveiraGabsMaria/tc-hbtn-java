@@ -3,10 +3,6 @@ public class Autor implements Comparable<Autor>{
     private String nome;
     private String sobrenome;
 
-    public Autor() {
-
-    }
-
     public Autor(String nome, String sobrenome) {
         super();
         this.nome = nome;

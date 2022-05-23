@@ -1,11 +1,21 @@
 import java.util.*;
 
 public class Blog {
-    private final List<Post> posts = new ArrayList<>();
+    private List<Post> posts);
 
     public Blog() {
+        this.posts = new ArrayList<Post>();
     }
 
+
+    public void adicionarPostagem(Post postagem) throws  IllegalArgumentException{
+        for (Post post : posts) {
+            if (post.getAutor().equals(postagem.getAutor()) && post.getTitulo().contains(postagem.getTitulo())) {
+                throw new IllegalArgumentException("Postagem jah existente");
+            }
+        }
+        posts.add(postagem);
+    }
     public Set<Autor> obterTodosAutores() {
         Set<Autor> autores = new TreeSet<>();
 
@@ -32,74 +42,46 @@ public class Blog {
         return mapaCategorias;
     }
 
-    public void adicionarPostagem(Post postagem) {
-        for (Post post : posts) {
-            if (post.getAutor().equals(postagem.getAutor()) && post.getTitulo().contains(postagem.getTitulo())) {
-                throw new IllegalArgumentException("Postagem jah existente");
-            }
-        }
-        posts.add(postagem);
-    }
 
     public Set<Post> obterPostsPorAutor(Autor autor) {
-        Set<Post> postAutor = new TreeSet<>();
-        posts.sort(Comparator.comparing(Post::getTitulo));
+        Set<Post> posts = new TreeSet<Post>();
 
-        for (Post post:
-             this.posts) {
-             autor = post.getAutor();
-            if (autor.equals(autor)) {
-                postAutor.add(post);
-            }
-        }
-        return postAutor;
+        this.posts.forEach(post -> {
+            if (post.getAutor().toString().equals(autor.toString()))
+                post.add(post);
+        });
+        return posts;
     }
 
     public Set<Post> obterPostsPorCategoria(Categorias categoria){
-        Set<Post> categoriasPost = new TreeSet<>();
-        posts.sort(Comparator.comparing(Post::getTitulo));
+        Set<Post> posts = new TreeSet<Post>();
+        this.posts.forEach(post -> {
+            if (post.getCategoria().equals(categoria))
+                post.add(post);
+        });
 
-        for(Post post:posts){
-            if (post.getCategoria().equals(categoria)) {
-                categoriasPost.add(post);
-            }
-        }
-        return categoriasPost;
+        return posts;
     }
 
     public Map<Categorias, Set<Post>> obterTodosPostsPorCategorias() {
-        Map<Categorias, Set<Post>> todosPosts = new TreeMap<>();
+        Map<Categorias, Set<Post>> todosPosts = new TreeMap<Categorias, Set<Post>>();
 
-        for (Post post : posts) {
-            Set<Post> postagem;
-            if (todosPosts.containsKey(post.getCategoria())){
-                postagem = todosPosts.get(post.getCategoria());
-            }
-            else {
-                postagem = new TreeSet<>();
-            }
-
-            postagem.add(post);
-            todosPosts.put(post.getCategoria(), postagem);
-        }
+        this.posts.forEach(post -> {
+            todosPosts.compute(post.getCategoria(), (key, value) -> {
+                return obterPostsPorCategoria(key);
+            });
+        });
         return todosPosts;
     }
 
     public Map<Autor, Set<Post>> obterTodosPostsPorAutor() {
-        Map<Autor, Set<Post>> todosPots = new TreeMap<>();
+        Map<Autor, Set<Post>> todosPots = new LinkedHashMap<Autor, Set<Post>>();
 
-        for (Post post : posts){
-            Set<Post> postagem;
-            if (todosPots.containsKey(post.getAutor())) {
-                postagem = todosPots.get(post.getAutor());
-            }
-            else {
-                postagem = new TreeSet<>();
-            }
-
-            postagem.add(post);
-            todosPots.put(post.getAutor(), postagem);
-        }
+      obterTodosAutores().forEach(autor -> {
+          todosPots.compute(autor, (key, value) ->{
+              return obterPostsPorAutor(key);
+          });
+      });
 
         return todosPots;
     }

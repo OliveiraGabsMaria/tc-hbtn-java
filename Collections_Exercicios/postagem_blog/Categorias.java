@@ -1,5 +1,5 @@
 public enum Categorias {
     DEVOPS,
     DESENVOLVIMENTO,
-    DATA_SCIENCE;
+    DATA_SCIENCE
 }
