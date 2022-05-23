@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Blog {
-    private List<Post> posts = new ArrayList<>();
+    private final List<Post> posts = new ArrayList<>();
 
     public Blog() {
     }
@@ -89,7 +89,7 @@ public class Blog {
     }
 
     public Map<Autor, Set<Post>> obterTodosPostsPorAutor() {
-        Map<Autor, Set<Post>> todosPots = new TreeMap<>():
+        Map<Autor, Set<Post>> todosPots = new TreeMap<>();
 
         for (Post post : posts){
             Set<Post> postagem;
