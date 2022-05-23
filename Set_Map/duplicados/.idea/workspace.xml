@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81a34070-bc5d-4bb8-a7f2-3d0f75c3241c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="9a8cf6ea-1146-41d9-9432-da00917b3432" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../analisador_frase/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +22,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29RRIZNOoZd72YSMXEEOPC0gjd7" />
+  <component name="ProjectId" id="29ZA5lEdUBwGb1vMWAIPn2FK9wt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,11 +38,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="81a34070-bc5d-4bb8-a7f2-3d0f75c3241c" name="Changes" comment="" />
-      <created>1653073832222</created>
+      <changelist id="9a8cf6ea-1146-41d9-9432-da00917b3432" name="Changes" comment="" />
+      <created>1653310052259</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653073832222</updated>
+      <updated>1653310052259</updated>
     </task>
     <servers />
   </component>
