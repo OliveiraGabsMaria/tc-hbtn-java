@@ -9,13 +9,9 @@ public class Blog {
     public Set<Autor> obterTodosAutores() {
         Set<Autor> autores = new TreeSet<>();
 
-        Autor autor = "";
-        for (Post post:
-             this.posts) {
+        Collections.sort(this.posts);
+        this.posts.forEach(post -> autores.add(post.getAutor()));
 
-            autor = post.getAutor();
-            autores.add(autor);
-        }
         return autores;
     }
 
