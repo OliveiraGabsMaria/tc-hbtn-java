@@ -8,8 +8,9 @@ public class Blog {
 
     public Set<Autor> obterTodosAutores() {
         Set<Autor> autores = new TreeSet<>();
+
         Autor autor = "";
-        for (posts:
+        for (Post post:
              this.posts) {
 
             autor = post.getAutor();
@@ -49,7 +50,7 @@ public class Blog {
 
         for (Post post:
              this.posts) {
-            Autor autor = post.getAutor();
+             autor = post.getAutor();
             if (autor.equals(autor)) {
                 postAutor.add(post);
             }
