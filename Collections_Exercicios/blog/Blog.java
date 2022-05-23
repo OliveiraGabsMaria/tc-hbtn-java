@@ -19,7 +19,7 @@ public class Blog {
         Map<String, Integer> map = new TreeMap<>();
         for (Post post : posts) {
             if (map.containsKey(post.getCategoria())) {
-                map.put(post.getCategoria(), map.get(post.getCategoria()) +v1);
+                map.put(post.getCategoria(), map.get(post.getCategoria()) + 1);
             }
             else {
                 map.put(post.categoria, 1);
