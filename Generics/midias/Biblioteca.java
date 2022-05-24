@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Biblioteca {
+public class Biblioteca <E extends Midia>{
 
     private List<E> biblioteca;
 
