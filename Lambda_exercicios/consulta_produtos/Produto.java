@@ -9,6 +9,7 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
         this.peso = peso;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
         this.tipo = tipo;
     }
 
