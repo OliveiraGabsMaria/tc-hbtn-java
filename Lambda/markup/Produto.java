@@ -8,7 +8,7 @@ public class Produto {
     private double percentualMarkUp;
 
     public Supplier<Double> precoComMarkUp = () -> this.preco * this.percentualMarkUp/100;
-    public Consumer<Double> atualizarMarkup = (Double newPercentualMarkUp) -> this.percentualMarkUp = newPercentualMarkUp;
+    public Consumer<Double> atualizarMarkUp = (Double newPercentualMarkUp) -> this.percentualMarkUp = newPercentualMarkUp;
 
     public Produto(String nome, double preco){
         this.nome = nome;
