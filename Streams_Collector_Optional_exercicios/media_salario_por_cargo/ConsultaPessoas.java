@@ -22,7 +22,7 @@ public class ConsultaPessoas {
     }
 
     public static Map<String, Map<String, Long>> obterContagemPessoasPorCargoEIdade(List<Pessoa> pessoas){
-        return pessoas.pessoas.stream()
+        return pessoas.stream()
                 .collect(Collectors.groupingBy(
                         Pessoa::getCargo,
                         Collectors.groupingBy(
