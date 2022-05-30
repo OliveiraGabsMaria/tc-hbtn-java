@@ -21,7 +21,7 @@ public class ConsultaPessoas {
                 ));
     }
 
-    public static Map<String, Map<String, Long>> obterContagemPessoasPorCargoEIdade(List<Pessoa> pessoas){
+    public static Map<String, Map<Integer, Long>> obterContagemPessoasPorCargoEIdade(List<Pessoa> pessoas){
         return pessoas.stream()
                 .collect(Collectors.groupingBy(
                         Pessoa::getCargo,
