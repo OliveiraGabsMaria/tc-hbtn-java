@@ -1,3 +1,4 @@
+import java.util.List;
 public class Pessoa implements Comparable<Pessoa>{
 
     private int codigo;
