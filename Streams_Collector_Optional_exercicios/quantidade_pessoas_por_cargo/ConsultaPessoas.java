@@ -17,7 +17,7 @@ public class ConsultaPessoas {
     public static Map<String, Long> obterContagemPessoasPorCargo(List<Pessoa> pessoas){
         return pessoas.stream()
                 .collect(Collectors.groupingBy(
-                        Pessoa::getCargo, Collector.counting()
+                        Pessoa::getCargo, Collectors.counting()
                 ));
     }
 }
