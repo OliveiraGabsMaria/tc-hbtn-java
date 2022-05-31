@@ -35,6 +35,7 @@ public class SerializarEstudantes<T> {
             return result;
         } catch (Exception e){
             System.out.println("Nao foi possivel desserializar");
+            return null;
         }
     }
 }
